@@ -46,7 +46,7 @@ header nav a:hover {
 .hero {
   background: url("pexels-george-kondylis-75308419-8571064 (1).jpg") center/contain no-repeat;
   background-size:100% auto;/* width fits screen */
-  height; 80vh /* 80% of screen */
+  height; 60vh /* 60% of screen */
   color: #fff;
   text-align: center;
   padding: 100px 20px;
@@ -116,6 +116,7 @@ footer {
   padding: 20px 0;
   margin-top: 30px;
 }
+
 
 
 
