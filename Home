@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlankBook – A New Page for Film Lovers</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>BlankBook</h1>
+    <p>A new page for film production enthusiasts</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Turn Your Passion Into Cinema</h2>
+      <p>Welcome to BlankBook, a platform for actors, editors, musicians, directors, and funders to collaborate and create.</p>
+      <a href="#join" class="btn">Join Now</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 BlankBook. All rights reserved.</p>
+  </footer>
+</body>
+</html>
