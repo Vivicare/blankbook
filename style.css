@@ -14,7 +14,7 @@ body {
 
 /* Container */
 .container {
-  width: 0%;
+  width: 30%;
   max-width: 1100px;
   margin: auto;
 }
@@ -46,7 +46,7 @@ header nav a:hover {
 .hero {
   background: url("pexels-george-kondylis-75308419-8571064 (1).jpg") center/contain no-repeat;
   background-size:100% auto;/* width fits screen */
-  height; 60vh /* 60% of screen */
+  height; 80vh /* 80% of screen */
   color: #fff;
   text-align: center;
   padding: 50px 10px;
@@ -114,8 +114,9 @@ footer {
   color: #bbb;
   text-align: center;
   padding: 10px 0;
-  margin-top: 20px;
+  margin-top: 30px;
 }
+
 
 
 
