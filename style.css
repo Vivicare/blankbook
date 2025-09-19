@@ -44,22 +44,28 @@ header nav a:hover {
 
 /* Hero Section */
 .hero {
-  background: url("pexels-george-kondylis-75308419-8571064 (1).jpg") center/contain no-repeat;
-  background-size:100% auto;/* width fits screen */
-  height; 80vh /* 80% of screen */
-  color: #fff;
+  position: relative;
+  height: 100vh; /* full screen */
+  overflow: hidden;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* shows full image without cutting */
+  object-position: center;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
-  padding: 100px 20px;
-}
-
-.hero h2 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
-}
-
-.hero p {
-  font-size: 1.2rem;
-  margin-bottom: 30px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5); /* adds a slight dark overlay for readability */
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .btn {
@@ -116,6 +122,7 @@ footer {
   padding: 10px 0;
   margin-top: 30px;
 }
+
 
 
 
