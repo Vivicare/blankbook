@@ -6,23 +6,12 @@
 }
 
 body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
   margin: 0;
-  padding: 0;
-  min-height: 100vh; /* full height */
-  background: url('heroimage280.jpg') no-repeat center center fixed;
-  background-size: cover;
-  color: white; /* makes text visible on dark photo */
-  font-family: Arial, sans-serif;
-}
-
-.content {
-  position: relative;
-  z-index: 1;  /* keeps content above background */
-  padding: 20px;
-  text-align: center;
-  background: rgba(0, 0, 0, 0.5); /* optional: adds slight dark layer so text is clearer */
-  border-radius: 10px;
-  display: inline-block;
+  Padding: 0;
+  color: #333;
+  background-color: black;
 }
 
 /* Container */
@@ -127,6 +116,7 @@ footer {
   padding: 20px 0;
   margin-top: 30px;
 }
+
 
 
 
