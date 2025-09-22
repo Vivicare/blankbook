@@ -2,6 +2,8 @@
 * {
   margin: 0;
   padding: 0;
+  Height:100vh;
+  width:100vw:
   box-sizing: border-box;
 }
 
@@ -9,7 +11,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   color: #333;
-  background-color: #fdfdfd;
+  background-color: black;
 }
 
 /* Container */
@@ -44,7 +46,7 @@ header nav a:hover {
 
 /* Hero Section */
 .hero {
-  background: url("pexels-grogo-3971060.jpg") center/contain no-repeat;
+  background: url("pexels-grogo-3971060.jpg") center/cover no-repeat;
   color: #fff;
   text-align: center;
   padding: 100px 20px;
@@ -114,6 +116,7 @@ footer {
   padding: 20px 0;
   margin-top: 30px;
 }
+
 
 
 
