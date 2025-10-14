@@ -164,6 +164,34 @@ main > section:first-of-type {
     50% { opacity: 0.8; }
 }
 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000; /* black background */
+  color: #fff; /* white text */
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  height: 100vh; /* full screen height */
+}
+
+.hero-left img {
+  width: 400px; /* adjust size */
+  border-radius: 20px;
+}
+
+.hero-right {
+  flex: 1;
+  padding-left: 50px;
+}
+
+.hero-right h1 {
+  color: #ff6f61; /* your coral color */
+}
 
 
 
