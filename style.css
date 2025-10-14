@@ -46,7 +46,7 @@ header nav a:hover {
 
 /* Hero Section */
 .hero {
-  background: url("hero image280.jpg") center/cover no-repeat;
+  background: url("GitHub\blankbook\hero image280.jpg") center/cover no-repeat;
   color: #000;
   text-align: center;
   padding: 100px 20px;
@@ -163,6 +163,7 @@ main > section:first-of-type {
     0%, 100% { opacity: 0.3; }
     50% { opacity: 0.8; }
 }
+
 
 
 
